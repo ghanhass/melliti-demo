@@ -120,6 +120,9 @@ background-color: rgba(0, 0, 0, 0.4);
   display:block;
 }
 
+.fix-video-parent > .video-js:first-of-type {
+    margin-bottom: 3px;
+}
 </style>
 </head>
 
@@ -141,7 +144,7 @@ background-color: rgba(0, 0, 0, 0.4);
 <div class="video-container">
 
 <div class="error-video-parent">
-  <h2 class="video-title">Old implementation</h2>
+  <h2 class="video-title">Ancienne implémentation</h2>
   <video
       class="video-js my-player"
       controls
@@ -160,7 +163,7 @@ background-color: rgba(0, 0, 0, 0.4);
   </div>
   <hr>
   <div class="fix-video-parent">
-  <h2 class="video-title">New implementation</h2>
+  <h2 class="video-title">Nouvelle implementation</h2>
   <video
       class="video-js my-player"
       controls
